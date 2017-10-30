@@ -1,0 +1,20 @@
+{
+    "name": "nd-weather",
+    "version": "0.0.2",
+    "description": "a npm weather tool",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./src/index.js"
+    },
+    "bin": {
+        "weather": "./bin/weather.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/swhzzz/node-weather"
+    },
+    "keywords": [],
+    "author": "swhzzz",
+    "license": "ISC"
+}
